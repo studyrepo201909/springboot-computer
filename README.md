@@ -6,10 +6,11 @@ System Requirements
 
 Technique
 - SpringBoot
+- JPA
 - Postgresql
 - Junit5
-- Lombok
 - Mockito
+- Lombok
 
 #### Database
 
