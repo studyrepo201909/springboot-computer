@@ -7,7 +7,7 @@ System Requirements
 Technique
 - SpringBoot
 - JPA
-- Postgresql
+- Postgres
 - Junit5
 - Mockito
 - Lombok
@@ -16,7 +16,7 @@ Technique
 
 Locally you will need a Postgres database running on port 5432.
 
-To start a local database we provide a `docker-compose.yml` file that can kickstart the appropiated containers, you only
+To start a local database we provide a `docker-compose.yml` file that can start the appropriate containers, you only
 need to run the following command:
 
 ```bash
