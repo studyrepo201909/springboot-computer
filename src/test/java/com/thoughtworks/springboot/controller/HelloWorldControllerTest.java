@@ -16,7 +16,7 @@ class HelloWorldControllerTest {
   private HelloWorldController helloWorldController;
 
   @Test
-  void should_return_200_when_call_get_hello_world_api() {
+  void should_return_status_code_200_when_call_get_hello_world_api() {
     ResponseEntity<String> responseEntity = helloWorldController.getHelloWorld();
 
     assertEquals(HttpStatus.OK, responseEntity.getStatusCode());
