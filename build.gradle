@@ -19,13 +19,11 @@ dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.10'
     annotationProcessor 'org.projectlombok:lombok:1.18.10'
 
-    testCompile('org.springframework.boot:spring-boot-starter-test') {
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'junit', module: 'junit'
     }
-
     // Libraries for unit testing use junit5 and mockito
     testCompile 'org.junit.jupiter:junit-jupiter-api:5.2.0'
     testCompile 'org.mockito:mockito-junit-jupiter:2.19.0'
     testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.2.0'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
