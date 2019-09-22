@@ -35,4 +35,4 @@ To start the application in local, use the gradle command
 
 `./gradlew bootRun`
 
-when it startup, you can visit the application use `http://localhost:8080`. 
+when it startup, you can visit the application use `http://localhost:8080` via browsers or postman tools, then you can see `Hello World.`. 
